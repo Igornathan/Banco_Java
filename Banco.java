@@ -12,6 +12,8 @@ public class Banco{
 
     public static void main(String[] args) {
         Conta contaBancaria = new Conta();
-        contaBancaria.Conta();
+        contaBancaria.MostraSaldo();
+        contaBancaria.Deposito();
+        contaBancaria.Saque();
     }
 }
